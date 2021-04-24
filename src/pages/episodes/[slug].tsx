@@ -1,7 +1,7 @@
 import { GetStaticPaths, GetStaticProps } from 'next';
 import Image from 'next/image'
 import Link from 'next/link';
-import Head from 'next/Head';
+import Head from 'next/head';
 import {useRouter} from 'next/router'
 
 import { format, parseISO } from 'date-fns';
